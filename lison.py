@@ -8,7 +8,7 @@ import re
 def is_valid_url(url):
     regex = re.compile(
         r'^(?:http|ftp)s?://'  
-        r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?)|'  # domain...
+        r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?)|'  
         r'localhost|'  
         r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|' 
         r'\[?[A-F0-9]*:[A-F0-9:]+\]?)'  
@@ -91,13 +91,12 @@ root = tk.Tk()
 root.title("Lison | Webhook Embed | By Doub")
 root.geometry("600x665")
 
-# Logo
+
 icon_path = "Logo.ico"
 icon_image = Image.open(icon_path)
 icon_tk = ImageTk.PhotoImage(icon_image)
 root.iconphoto(True, icon_tk)
 
-# ASCII Art Title
 ascii_title = """
  ▄█        ▄█     ▄████████  ▄██████▄  ███▄▄▄▄   
 ███       ███    ███    ███ ███    ███ ███▀▀▀██▄ 
