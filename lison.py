@@ -88,7 +88,7 @@ def send_webhook():
         print(error_message)
 
 root = tk.Tk()
-root.title("Lison | Webhook Embed")
+root.title("Lison | Webhook Embed | By Doub")
 root.geometry("600x665")
 
 # Logo
