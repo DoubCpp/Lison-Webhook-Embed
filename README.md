@@ -7,8 +7,7 @@ Simple Discord Webhook Embed
 lunch install.bat or
 
 ```bash
-  pip install Pillow
-  pip install requests
+pip install -r requirements.txt
 ```
 
     
